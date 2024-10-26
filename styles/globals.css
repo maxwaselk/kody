@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dostosowanie motywów */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dostosowanie dla ciemnego motywu */
+.dark {
+  background-color: #1f2937; /* Dark gray */
+  color: #e5e7eb; /* Light gray */
+}
+
+/* Animacje przycisków */
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Responsywność */
+@media (max-width: 640px) {
+  .input {
+    width: 100%;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
